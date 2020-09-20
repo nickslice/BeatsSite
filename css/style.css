@@ -180,6 +180,9 @@ body.lock {
 
 @media (max-width: 850px) {
   .menu__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     z-index: 500;
     position: fixed;
     width: 100%;
@@ -187,7 +190,6 @@ body.lock {
     top: 0;
     left: 0;
     background: #191720;
-    padding: 200px 0px 0px 0px;
     transform: translate(0px, -100%);
     transition: 0.8s ease 0s;
   }
@@ -1505,6 +1507,9 @@ body.lock {
     border-top: 0.5px solid #000000;
     border-bottom: 0.5px solid #000000;
   }
+  .footer .footer__products ul {
+    margin: 0px 0px 20px 0px;
+  }
 }
 .footer .block__title {
   position: relative;
@@ -1529,6 +1534,9 @@ body.lock {
   .footer .footer__support {
     border-bottom: 0.5px solid #000000;
   }
+  .footer .footer__support ul {
+    margin: 0px 0px 20px 0px;
+  }
 }
 .footer .support__item {
   color: #fff;
@@ -1537,6 +1545,9 @@ body.lock {
 @media (max-width: 992px) {
   .footer .footer__company {
     border-bottom: 0.5px solid #000000;
+  }
+  .footer .footer__company ul {
+    margin: 0px 0px 20px 0px;
   }
 }
 .footer .company__item {

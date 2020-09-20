@@ -112,6 +112,9 @@ body.lock {
 }
 .menu__body {
 	@media (max-width: 850px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		z-index: 500;
 		position: fixed;
 		width: 100%;
@@ -119,7 +122,6 @@ body.lock {
 		top: 0;
 		left: 0;
 		background: #191720;;
-		padding: 200px 0px 0px 0px;
 		transform: translate(0px, -100%);
 		transition: 0.8s ease 0s;
 		&.active {
@@ -1195,7 +1197,10 @@ body.lock {
 	.footer__products {
 		@media (max-width: 992px) {
 			border-top: 0.5px solid #000000;
-			border-bottom: 0.5px solid #000000
+			border-bottom: 0.5px solid #000000;
+			ul {
+				margin: 0px 0px 20px 0px;
+			}
 		}
 	}
 	.block__title {
@@ -1217,7 +1222,10 @@ body.lock {
 	}
 	.footer__support {
 		@media (max-width: 992px) {
-			border-bottom: 0.5px solid #000000
+			border-bottom: 0.5px solid #000000;
+			ul {
+				margin: 0px 0px 20px 0px;
+			}
 		}
 	}
 	.support__item {
@@ -1226,7 +1234,10 @@ body.lock {
 	}
 	.footer__company {
 		@media (max-width: 992px) {
-			border-bottom: 0.5px solid #000000
+			border-bottom: 0.5px solid #000000;
+			ul {
+				margin: 0px 0px 20px 0px;
+			}
 		}
 	}
 	.company__item {
