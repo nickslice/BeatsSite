@@ -204,7 +204,7 @@ body.lock {
     height: 50px;
     content: "";
     display: block;
-    background: url("../img/header/logo.png");
+    background: url("../img/header/logo.svg");
   }
 }
 
@@ -220,6 +220,9 @@ body.lock {
   .menu__list li {
     padding: 0px 0px 45px 0px;
     margin: 0 !important;
+  }
+  .menu__list li:last-child {
+    padding: 0px 0px 0px 0px;
   }
   .menu__list li a {
     font-size: 24px;

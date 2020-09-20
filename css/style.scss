@@ -135,7 +135,7 @@ body.lock {
 			height: 50px;
 			content: '';
 			display: block; 
-			background: url('../img/header/logo.png');
+			background: url('../img/header/logo.svg');
 		}
 	}
 }
@@ -148,6 +148,9 @@ body.lock {
 		li {
 			padding: 0px 0px 45px 0px;
 			margin: 0 !important;
+			&:last-child {
+				padding: 0px 0px 0px 0px;
+			}
 			a {
 				font-size: 24px;	
 			}
